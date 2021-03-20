@@ -1,0 +1,17 @@
+.error-text {
+  margin-top: 5px;
+  
+  color: rgb(252, 23, 23);
+  font-weight: bold;
+}
+
+.success-text {
+  margin-top: 5px;
+  color: rgb(23, 245, 23);
+  font-weight: bold;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
