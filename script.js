@@ -4,9 +4,18 @@ const confirmPass = document.querySelector("#password-confirm");
 const contactNum = document.querySelector("#contact-number");
 const pass = document.querySelector("#password");
 const signUpForm = document.querySelector("#signup-form");
+const signupBtn = document.querySelector("#signup-btn");
 const submitBtn = document.querySelector("#submit-btn");
 const successPg = document.querySelector("#sucess-page");
 const signupPg = document.querySelector("#signup-page");
+const welcomePg = document.querySelector("#welcome-page");
+
+signupBtn.addEventListener("click", signUpFunction);
+
+function signUpFunction() {
+  welcomePg.style.display = "none";
+  signupPg.style.display = "block";
+}
 
 submitBtn.addEventListener("click", submitFunction);
 function submitFunction(e) {
